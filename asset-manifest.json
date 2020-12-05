@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/gryffindormath/static/css/main.dd9b1567.chunk.css",
+    "main.js": "/gryffindormath/static/js/main.96010aa8.chunk.js",
+    "main.js.map": "/gryffindormath/static/js/main.96010aa8.chunk.js.map",
+    "runtime-main.js": "/gryffindormath/static/js/runtime-main.e3ea51e6.js",
+    "runtime-main.js.map": "/gryffindormath/static/js/runtime-main.e3ea51e6.js.map",
+    "static/css/2.43b2b750.chunk.css": "/gryffindormath/static/css/2.43b2b750.chunk.css",
+    "static/js/2.51068a4e.chunk.js": "/gryffindormath/static/js/2.51068a4e.chunk.js",
+    "static/js/2.51068a4e.chunk.js.map": "/gryffindormath/static/js/2.51068a4e.chunk.js.map",
+    "static/js/3.99d89fb2.chunk.js": "/gryffindormath/static/js/3.99d89fb2.chunk.js",
+    "static/js/3.99d89fb2.chunk.js.map": "/gryffindormath/static/js/3.99d89fb2.chunk.js.map",
+    "index.html": "/gryffindormath/index.html",
+    "static/css/2.43b2b750.chunk.css.map": "/gryffindormath/static/css/2.43b2b750.chunk.css.map",
+    "static/css/main.dd9b1567.chunk.css.map": "/gryffindormath/static/css/main.dd9b1567.chunk.css.map",
+    "static/js/2.51068a4e.chunk.js.LICENSE.txt": "/gryffindormath/static/js/2.51068a4e.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/gryffindormath/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e3ea51e6.js",
+    "static/css/2.43b2b750.chunk.css",
+    "static/js/2.51068a4e.chunk.js",
+    "static/css/main.dd9b1567.chunk.css",
+    "static/js/main.96010aa8.chunk.js"
+  ]
+}
