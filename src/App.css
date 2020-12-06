@@ -1,0 +1,636 @@
+.bodyvarsayilan{
+  background: #1b1b1b !important;
+  transition: 0.5s;
+}
+
+.bodyturuncu{
+  background: #5c3700 !important;
+  transition: 0.5s;
+
+}
+.bodyyesil{
+  background: #08422b !important;
+  transition: 0.5s;
+
+}
+.bodymavi{
+  background: #00132e !important;
+  transition: 0.5s;
+
+}
+
+
+
+.App{
+ 
+  animation: fade 1s alternate forwards;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+@keyframes fade {
+  0%{
+    opacity: 0;
+    transform: scale(0.8) ;
+  }
+  100% {
+      transform: scale(1) ;
+      opacity: 1;
+  }
+}
+
+
+
+
+
+.margintop{
+  margin-top: 5rem;
+  color:#ff2e63;
+}
+.kart{
+
+  width: 25rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px;
+  
+  border: 1px solid #e84545;
+  margin: 30px;
+  transition: 0.2s linear;
+
+}
+
+
+.shrink {
+  animation: shrink 500ms alternate-reverse ;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+
+@keyframes shrink {
+  100% {
+      transform: scale(0.9, 0.9);
+  }
+}
+
+
+.kart:hover{
+  background: #e84545;
+  cursor: pointer;
+  transform: scale(1.05);
+
+
+}
+.kart:hover h4{
+  color: white!important;
+
+}
+.kart:hover span{
+  color: white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+.kart:hover svg{
+  color:white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+
+
+@keyframes _3d {
+  0% {
+    transform: scale(1);
+}
+  100% {
+      transform: scale(1.1);
+  }
+}
+
+
+.kart h4{
+  color: #e84545;
+  margin-top: 2rem;
+}
+.kart span{
+  font-size: 50px;
+  color: #e84545;
+  }
+  
+.kart svg{
+font-size: 50px;
+color: #e84545;
+}
+
+.container-islem{
+  background: #e84545!important;
+  color: white!important;
+  border-radius: 30px!important;
+  padding: 5px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e84545;
+  margin-bottom: 100px;
+  transition: 0.2s;
+}
+.container-islem:hover{
+
+  transform: scale(1.05) ;
+  
+
+}
+@media (min-width: 200px) and (max-width: 667px) { 
+ .h4mobil{
+  font-size: 20px;
+ }
+.container-islem{
+  background: #e84545!important;
+  color: white!important;
+  border-radius: 30px!important;
+  width: 250px!important;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+ 
+
+  margin-bottom: 100px;
+}
+
+ }
+
+.container-islem .btn{
+  
+  margin: 10px!important;
+  background: white!important;
+  color: #e84545!important;
+
+  border-radius: 30px!important;
+
+}
+.container-islem input{
+  
+  margin: 10px;
+
+  color: #e84545!important;
+  background: #f1f1f1;
+  border: none;
+  outline: 0!important;
+  padding:20px;
+
+  border-radius: 30px!important;
+  border: 1px solid lightgray !important;
+
+}
+.container-islem h4{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
+.container-islem p{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
+.h4mobil{
+  color: white!important;
+  padding-top: 20px;
+  text-align: center;
+}
+
+:root{
+  --varsayilan: #ff2e63;
+  --fistik: #17b978;
+  --turuncu: #ff9a00;
+  --mavi: #0245a3;
+}
+.varsayılan{
+  background: var(--varsayilan);
+  width: 2rem;
+  height: 30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+.fistikyesili{
+  background: var(--fistik);
+  width: 2rem;
+  height: 30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+
+.container-islem_fistikyesili{
+  background: var(--fistik)!important;
+  color: white!important;
+  border-radius: 30px!important;
+  padding: 5px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--fistik);
+  margin-bottom: 100px;
+  transition: 0.2s;
+}
+.container-islem:hover{
+
+  transform: scale(1.05) ;
+  
+
+}
+@media (min-width: 250px) and (max-width: 667px) { 
+ .h4mobil{
+  font-size: 20px;
+ }
+ .container-islem_fistikyesili{
+  background: var(--fistik)!important;
+  color: white!important;
+  border-radius: 30px!important;
+  width: 250px!important;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+ 
+
+  margin-bottom: 100px;
+}
+
+ }
+
+.container-islem_fistikyesili .btn{
+  
+  margin: 10px!important;
+  background: white!important;
+  color: var(--fistik)!important;
+
+  border-radius: 30px!important;
+
+}
+.container-islem_fistikyesili input{
+  
+  margin: 10px;
+
+  color: var(--fistik)!important;
+  background: #f1f1f1;
+  border: none;
+  outline: 0!important;
+  padding:20px;
+
+  border-radius: 30px!important;
+  border: 1px solid lightgray !important;
+
+}
+.container-islem_fistikyesili h4{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
+.container-islem_fistikyesili p{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+.turuncu{
+  background: var(--turuncu);
+  width: 2rem;
+  height: 30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+.mavi{
+  background: var(--mavi);
+  width: 2rem;
+  height: 30px;
+  border-radius: 30px;
+  margin: 10px;
+}
+
+
+
+
+
+.kartfistik{
+
+  width: 25rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px;
+  
+  border: 1px solid var(--fistik);
+  margin: 30px;
+  transition: 0.2s linear;
+
+}
+.kartfistik h4{
+  color: var(--fistik);
+  margin-top: 2rem;
+}
+.kartfistik span{
+  font-size: 50px;
+  color:  var(--fistik);
+  }
+  
+.kartfistik svg{
+font-size: 50px;
+color:  var(--fistik);
+}
+
+
+.kartfistik:hover{
+  background: var(--fistik);
+  cursor: pointer;
+  transform: scale(1.05);
+
+
+}
+.kartfistik:hover h4{
+  color: white!important;
+
+}
+.kartfistik:hover span{
+  color: white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+.kartfistik:hover svg{
+  color:white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+
+.kartturuncu{
+
+  width: 25rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px;
+  
+  border: 1px solid var(--turuncu);
+  margin: 30px;
+  transition: 0.2s linear;
+
+}
+.kartturuncu h4{
+  color: var(--turuncu);
+  margin-top: 2rem;
+}
+.kartturuncu span{
+  font-size: 50px;
+  color:  var(--turuncu);
+  }
+  
+.kartturuncu svg{
+font-size: 50px;
+color:  var(--turuncu);
+}
+
+
+.kartturuncu:hover{
+  background: var(--turuncu);
+  cursor: pointer;
+  transform: scale(1.05);
+
+
+}
+.kartturuncu:hover h4{
+  color: white!important;
+
+}
+.kartturuncu:hover span{
+  color: white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+.kartturuncu:hover svg{
+  color:white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+
+.container-islem_turuncu{
+  background: var(--turuncu)!important;
+  color: white!important;
+  border-radius: 30px!important;
+  padding: 5px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--fistik);
+  margin-bottom: 100px;
+  transition: 0.2s;
+}
+.container-islem:hover{
+
+  transform: scale(1.05) ;
+  
+
+}
+
+ @media (min-width: 200px) and (max-width: 667px) { 
+  .h4mobil{
+   font-size: 20px;
+  }
+  .container-islem_turuncu{
+   background: var(--turuncu)!important;
+   color: white!important;
+   border-radius: 30px!important;
+   width: 250px!important;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+  
+ 
+   margin-bottom: 100px;
+ }
+ 
+  }
+
+
+.container-islem_turuncu .btn{
+  
+  margin: 10px!important;
+  background: white!important;
+  color: var(--turuncu)!important;
+
+  border-radius: 30px!important;
+
+}
+.container-islem_turuncu input{
+  
+  margin: 10px;
+
+  color: var(--turuncu)!important;
+  background: #f1f1f1;
+  border: none;
+  outline: 0!important;
+  padding:20px;
+
+  border-radius: 30px!important;
+  border: 1px solid lightgray !important;
+
+}
+.container-islem_turuncu h4{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
+.container-islem_turuncu p{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
+
+
+
+
+
+
+
+
+
+
+
+.kartmavi{
+
+  width: 25rem;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  border-radius: 30px;
+  padding: 5px;
+  
+  border: 1px solid var(--mavi);
+  margin: 30px;
+  transition: 0.2s linear;
+
+}
+.kartmavi h4{
+  color: var(--mavi);
+  margin-top: 2rem;
+}
+.kartmavi span{
+  font-size: 50px;
+  color:  var(--mavi);
+  }
+  
+.kartmavi svg{
+font-size: 50px;
+color:  var(--mavi);
+}
+
+
+.kartmavi:hover{
+  background: var(--mavi);
+  cursor: pointer;
+  transform: scale(1.05);
+
+
+}
+.kartmavi:hover h4{
+  color: white!important;
+
+}
+.kartmavi:hover span{
+  color: white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+.kartmavi:hover svg{
+  color:white!important;
+  animation: _3d alternate 500ms forwards; 
+}
+
+.container-islem_mavi{
+  background: var(--mavi)!important;
+  color: white!important;
+  border-radius: 30px!important;
+  padding: 5px;
+  width: 500px;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--fistik);
+  margin-bottom: 100px;
+  transition: 0.2s;
+}
+.container-islem:hover{
+
+  transform: scale(1.05) ;
+  
+
+}
+@media (min-width: 250px) and (max-width: 667px) { 
+  .h4mobil{
+   font-size: 20px;
+  }
+  .container-islem_mavi{
+   background: var(--mavi)!important;
+   color: white!important;
+   border-radius: 30px!important;
+   width: 250px!important;
+   height: fit-content;
+   display: flex;
+   flex-direction: column;
+  
+ 
+   margin-bottom: 100px;
+ }
+ 
+  }
+
+.container-islem_mavi .btn{
+  
+  margin: 10px!important;
+  background: white!important;
+  color: var(--mavi)!important;
+
+  border-radius: 30px!important;
+
+}
+.container-islem_mavi input{
+  
+  margin: 10px;
+
+  color: var(--mavi)!important;
+  background: #f1f1f1;
+  border: none;
+  outline: 0!important;
+  padding:20px;
+
+  border-radius: 30px!important;
+  border: 1px solid lightgray !important;
+
+}
+.container-islem_mavi h4{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
+.container-islem_mavi p{
+  margin: 10px;
+  color: white!important;
+  word-wrap: break-word;
+}
